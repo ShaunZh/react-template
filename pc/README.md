@@ -1,0 +1,2 @@
+## 开发记录
+- 使用customize-cra配置项目支持less和css module时，因为create-react-app内部使用的css-loader与customize-cra使用css-loader版本不同，导致在配置css module时，关于modules 的options选项值不一致导致报错，可以通过通过将customize-cra升级的next版本（`npm i customize-cra@next`)，然后按照[customize-cra](https://github.com/arackaf/customize-cra/blob/next/api.md#addlessloaderloaderoptions)文档中的addLessLoader部分来进行设置

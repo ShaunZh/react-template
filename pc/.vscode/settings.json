@@ -1,0 +1,9 @@
+{
+  "cSpell.words": [
+    "Sider",
+    "mobx"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
