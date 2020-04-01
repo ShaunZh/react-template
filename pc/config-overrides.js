@@ -1,10 +1,17 @@
 // eslint-disable-next-line
-const { override, fixBabelImports, addWebpackAlias, addLessLoader } = require('customize-cra');
+const {
+  override,
+  fixBabelImports,
+  addWebpackAlias,
+  addLessLoader,
+  useBabelRc
+} = require('customize-cra');
 // eslint-disable-next-line
 // eslint-disable-next-line
 const path = require('path');
 
 module.exports = override(
+  useBabelRc(),
   fixBabelImports('import', {
     libraryName: 'antd',
     libraryDirectory: 'es',
