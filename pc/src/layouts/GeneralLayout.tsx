@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { Layout, Result, Button } from 'antd';
 
 import Authorized from '@/utils/Authorized';
@@ -15,7 +15,7 @@ import { History } from 'history';
 import { useStores } from '@/hooks/useStores';
 import routes from '@/router/routes';
 
-const { Footer, Content } = Layout;
+const { Content } = Layout;
 
 const noMatch = (
   <Result
