@@ -3,17 +3,17 @@
  * @Author: Hexon
  * @Date: 2020-03-17 14:06:01
  * @LastEditors: Hexon
- * @LastEditTime: 2020-03-17 14:06:28
+ * @LastEditTime: 2020-04-01 15:42:09
  */
 module.exports = {
-  extends: ["alloy", "alloy/react", "alloy/typescript"],
+  extends: ['alloy', 'alloy/react', 'alloy/typescript'],
   env: {
     // Your environments (which contains several predefined global variables)
     //
-    // browser: true,
+    browser: true,
     // node: true,
     // mocha: true,
-    // jest: true,
+    jest: true
     // jquery: true
   },
   globals: {
